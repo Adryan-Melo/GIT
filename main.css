@@ -1,4 +1,15 @@
-h1 {
-    color: rgb(23, 0, 231)74) 174, 103);
+*{
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+
+}
+head li{
+    display: inline;
 }
 
+.conteiner {
+    width: 1366;
+    margin:0 auto 0 auto;
+    
+}
