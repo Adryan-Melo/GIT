@@ -4,27 +4,143 @@ margin: 0;
 padding: 0;
 }
 
-header li {
-    display: inline; 
-    
+
+header .conteiner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
-.conteiner {
-    width: 1366;
-    margin:0 auto;
+header li {
+    display: inline;   
+    font-family: Arial, Helvetica, sans-serif; 
+    font-weight: bold;
+    margin-left: 16px;
+
+}
+header li a {
+    color: aliceblue;
+    font-weight: bold;
+    text-decoration: none;
+}
+header li a:hover{
+    text-decoration: underline;
+}
+
+h1{
+    color: aliceblue;
+}
+
+body > header{
+    background-color: #0f4854;
+    padding: 16px 0;
+
+}
+
+.conteiner{
+    width: 1024px;
+    margin: 0 auto;
 }
 
 .articles{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-
 }
 
 .articles article img{
-    height: 180px;
+    width: 100%;
 }
 
 .articles article{
     width: 33%;
+}
+
+section{
+    padding: 16px 0;
+}
+
+section h2,
+.articles article{
+    margin-bottom: 16px;
+}
+
+.articles article h3 {
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.articles article a {
+    background-color: #477a87;
+    color: aliceblue;
+    padding: 8px;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: bold;
+}
+.articles article a:hover {
+    text-decoration: underline;
+}
+
+.articles article p,
+.articles article a {
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.articles article h3{
+    font-size: 24px;
+}
+
+section h2 {
+    font-size: 32px;
+
+}
+
+#esportes{
+    background-color: #0f48543a;
+}
+
+#esportes .articles article a{
+    background-color: blue;
+}
+
+#economia{
+    background-color: #00c9504d;
+}
+
+#economia .articles article a{
+    background-color: rgb(8, 220, 8);
+}
+
+
+#entretenimento{
+    background-color: rgba(137, 43, 226, 0.171);
+}
+
+#entretenimento .articles article a{
+    background-color: blueviolet;
+}
+
+#tecnologia{
+    background-color: rgba(0, 255, 255, 0.142);
+}
+
+#tecnologia .articles article a{
+    background-color: aqua;
+
+}
+
+#bs{
+    color:blue;
+}
+
+#be{
+    color:rgb(8, 220, 8)
+}
+#bt{
+    color: aqua;
+}
+
+#bn{
+    color: blueviolet;
 }
