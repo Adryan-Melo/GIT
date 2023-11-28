@@ -27,9 +27,24 @@ header nav li a{
     margin: 0 auto;
 }
 
-header .conteiner{
+header .conteiner,
+section.conteiner {
     display: flex;
     align-items: center;
     justify-content: space-between;
 
 }
+
+.b-list img {
+    height: 24px;   
+}
+
+.b-list li {
+    display: inline;
+}
+
+#VAVA {
+    height: 400px; 
+
+}
+
