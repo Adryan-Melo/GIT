@@ -76,6 +76,7 @@ form button{
 
 form textarea{
     resize: none;
+    height: 100px;
 }
 
 form button {
@@ -89,3 +90,10 @@ form button:hover {
     background-color: rgb(218, 97, 97);
     color: black;
 }
+ footer p {
+    color:white;
+    text-align: center;
+    padding: 20px;
+    background-color: red;
+
+ }
