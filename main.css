@@ -32,6 +32,10 @@ header nav li a{
     margin: 0 auto;
 }
 
+section h2{
+    margin-top: 9px;
+}
+
 header .conteiner,
 section.conteiner {
     display: flex;
@@ -43,6 +47,7 @@ section.conteiner {
 .b-list img {
     height: 24px; 
     margin-right: 9px;  
+    margin-top: 10px;
 }
 
 .b-list li {
@@ -51,12 +56,12 @@ section.conteiner {
 
 #VAVA {
     height: 400px; 
-    margin-top: 16px;
+    margin-top: 17px;
 
 }
 
 #cont h2 {
-    margin-top: 20px;
+    margin-top: 30px;
 }
 
 form input,
@@ -77,6 +82,7 @@ form button {
     background-color: red;
     color: white;
     border: none;
+    cursor: pointer;
 }
 
 form button:hover {
