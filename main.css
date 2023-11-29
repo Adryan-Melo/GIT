@@ -28,7 +28,7 @@ header nav li a{
 
 .conteiner{
     max-width: 1024px;
-    width: 100%;
+    width: 1024px;
     margin: 0 auto;
 }
 
@@ -100,4 +100,6 @@ footer p {
 
  }
 
- 
+#f{
+    width: 100%;
+}
