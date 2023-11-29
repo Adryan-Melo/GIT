@@ -3,6 +3,11 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body{
+    font-family:'roboto', sans-serif;
+
+}
 header{
     padding: 16px 0;
     background-color: red;
@@ -36,7 +41,8 @@ section.conteiner {
 }
 
 .b-list img {
-    height: 24px;   
+    height: 24px; 
+    margin-right: 9px;  
 }
 
 .b-list li {
@@ -45,6 +51,35 @@ section.conteiner {
 
 #VAVA {
     height: 400px; 
+    margin-top: 16px;
 
 }
 
+#cont h2 {
+    margin-top: 20px;
+}
+
+form input,
+form textarea,
+form button{
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+
+}
+
+form textarea{
+    resize: none;
+}
+
+form button {
+    background-color: red;
+    color: white;
+    border: none;
+}
+
+form button:hover {
+    background-color: rgb(218, 97, 97);
+    color: black;
+}
