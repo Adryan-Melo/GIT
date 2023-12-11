@@ -20,6 +20,7 @@ header img{
 
 header h1{
     font-size: 40px;
+   
 
 }
 
@@ -56,4 +57,28 @@ form{
 
 }
 
+table{
+    width: 95%;
+}
+table th{
+    font-size: 18px;
+    padding: 8px;
+    margin: 20px;
+    justify-content: space-between;
+    
+   
+}
+table td{
+    padding: 8px, 0;
+    text-align: center;
+    font-size: 12px;
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+}
 
+.container h4{
+    width: 90%;
+   margin-top: 40px;
+    text-align: center;
+    margin: 100px, auto ;
+    padding: 20px;
+}
