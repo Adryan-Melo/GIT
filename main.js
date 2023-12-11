@@ -1,25 +1,22 @@
-const form - document-getElenentByld('form_contato'):
-                                                            I
+const form = document.getElementById("form_contato");
+                                                            
  let linhas = " ";
 
-form.addEventListener('submit' function(e){
+form.addEventListener("submit", function(e) {
     e.preventDefault();
 
-    const inputnomecontato = document. getElementById('nome_contato');
-    const inputnumerocontato = document. getElementByld('numero_contato');
+    const inputnomecontato = document.getElementById("nome_contato");
+    const inputnumerocontato = document.getElementByld("numero_contato");
 
      let linha = '<str>';
 
      linha += `<td>${inputnomecontato.value}</td>`;
      linha += `<td>${inputnumerocontato.value}</td>`;
-     linha += `<td>${}</td>`
      linha += '</str>'
 
      linhas += linha;
 
-    const corpoTabela = document.queryselector('tbody'):
+    const corpoTabela = document.queryselector("tbody");
     corpoTabela.innerHTML = linhas;
-    
-    inputnomecontato.value ='';
-    inputnumerocontato.value ='';
+   
 });
