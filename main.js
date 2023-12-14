@@ -1,16 +1,52 @@
 $(document).ready(function() {
+
+   
     $('header button').click(function(){
         $('form').slideDown();
 
     })
 
-    $('#button_cancelar').click(function(){
+    
+    $('#botao-cancelar').click(function(){
+
         $('form').slideUp();
+
     })
 
-$('form').on('submit',function(e){
-        console.log('submit');
-        e.preventDeFalt();
-})
+   
+    $('form').on('submit', function(e){
+
+        e.preventDefault();
+        const tituloTarefa = $('#input-titulo-tarefa').val();
+        const descricaoTarefa = $('#input-descricao-tarefa').val();
+        console.log(tituloTarefa);
+        console.log(descricaoTarefa)
+        const novoItem = $('<li style=" display: none"></li>');
+
+        $(` 
+            <div class="container">
+                <div class="conteudo-tarefa">
+                <h3 class="titulo-tarefa">${tituloTarefa}</h3>
+                <p class="descricao-tarefa">${descricaoTarefa}</p>
+            </div>
+            <button class="botao-excluir"><i class="fas fa-trash-alt"></i></button>
+            </div>
+            `).appendTo(novoItem);
+
+
+
+        $(novoItem).appendTo('ul');
+        $(novoItem).fadeIn();
+
+        $('#input-titulo-tarefa').val(' ');
+        $('#input-descricao-tarefa').val(' ');
+
+    })
+
+    $('ul').on('click', '.botao-excluir', function() {
+        $(this).closest('li').fadeOut(function(){
+            $(this).remove();
+        });
+    });
 
 })
