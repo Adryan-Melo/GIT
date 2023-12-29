@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Tela de Cadastro</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+<div class="box">
+    
+        <form action="">
+            <fieldset>
+                <legend>Formulário de Cadastro</legend>
+                <br></br>
+                <div class="inputBox">
+                    <input type="text"class="inputUser" required>
+                    <label for="nome" class="labelInput">Seu Nome Completo </label>
+                </div>
+                
+                <br></br>
+
+                <div class="inputBox">
+                    <input type="email"class="inputUser" required>
+                    <label for="email" class="labelInput">E-mail</label>
+                </div>
+
+                <br></br>
+
+                <div class="inputBox">
+                    <input type="tel" class="inputUser" required id="tell">
+                    <label for="tell"class="labelInput">Telefone</label>
+                </div>
+
+                <br></br>
+                
+                <div class="inputBox">
+                    <input type="text" class="inputUser" required id="cpf">
+                    <label for="CPF"class="labelInput">CPF</label>
+                </div>
+
+                <br></br>
+
+                <div class="inputBox">
+                    <input type="text" class="inputUser" required>
+                     <label for="Endereço"class="labelInput">Endereço</label>
+                 </div>
+
+                <br></br>
+
+                <div class="inputBox">
+                    <input type="text" class="inputUser" required id="cep">
+                    <label for="CEP"class="labelInput">CEP</label>
+                </div>
+
+                <br></br>
+                <button type="submit" id="submit">Enviar</button>
+                
+        </fieldset>
+        </form>
+    </div>
+        <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+        <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+        <script src="./jquery.mask.min.js"></script>
+    
+    <script>
+        $('#tell').mask('(00) 00000-0000');
+        $('#cpf').mask('000.000.000-00');
+        $('#cep').mask('00000-000');
+
+    </script>
+</body>
+</html>
