@@ -41,13 +41,13 @@ console.log(car1);
 car1.acelerar();
 car1.parar();
 
-console.log("________________________________");
+console.log("________________________________\n"); //Organização na impressão 
 
 console.log(moto1);
 moto1.acelerar();
 moto1.parar();
 
-console.log("________________________________");
+console.log("________________________________\n"); //Organização na impressão 
 
 console.log(car2);
 car2.acelerar();
