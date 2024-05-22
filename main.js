@@ -52,6 +52,3 @@ console.log("________________________________");
 console.log(car2);
 car2.acelerar();
 car2.parar();
-// console.log(veiculoDoMaria)
-// console.log(veiculoDoDavi)
-// console.log(veiculoDoLuna)
