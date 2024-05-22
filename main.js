@@ -16,8 +16,8 @@ class veiculo {
         console.log(`Acelerando o ${this.marca} ${this.modelo} ${this.anoModelo}.`);
         }
     
-        parar() {
-        console.log(`Parando o ${this.marca} ${this.modelo} ${this.anoModelo}.`);
+        frear() {
+        console.log(`Freando o ${this.marca} ${this.modelo} ${this.anoModelo}.`);
         }
     }
 
@@ -26,8 +26,8 @@ class veiculo {
         console.log(`Acelerando a ${this.marca} ${this.modelo} ${this.anoModelo}.`);
         }
     
-        parar() {
-        console.log(`Parando a ${this.marca} ${this.modelo} ${this.anoModelo}.`);
+        frear() {
+        console.log(`Freando a ${this.marca} ${this.modelo} ${this.anoModelo}.`);
         }
     }
 
@@ -39,16 +39,16 @@ const car2 = new Carro("Ford", "Focus", 2010);
 
 console.log(car1);
 car1.acelerar();
-car1.parar();
+car1.frear();
 
-console.log("________________________________\n"); //Organização na impressão 
+console.log("________________________________\n"); //Organização na impressão
 
 console.log(moto1);
 moto1.acelerar();
-moto1.parar();
+moto1.frear();
 
-console.log("________________________________\n"); //Organização na impressão 
+console.log("________________________________\n"); //Organização na impressão
 
 console.log(car2);
 car2.acelerar();
-car2.parar();
+car2.frear();
